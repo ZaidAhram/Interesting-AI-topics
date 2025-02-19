@@ -20,7 +20,8 @@ Timescale has built a useful extension for PostgreSQL in order to serve as an AI
 
 What makes PGAI so good is that it is:
 1. Built on PostgreSQL and as such reliable
-2. Can do **both** embeddings and nearest neighbor search
+2. Can do **both** embeddings and nearest neighbor search (NN search through the PGVector extension)
+3. Supports multiple LLMs like Ollama and OpenAI
 
 The cons of using PGAI is that the barrier for entry is quite high since it requires a fair amount of knowledge in DBMS and PostgreSQL in particular. It is possible to write code that leverages PGAI without that knowledge, but it would not be optimal and would cause issues both long-term and short-term.
 
